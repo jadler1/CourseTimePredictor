@@ -22,9 +22,6 @@ with open('terms.json') as terms:
 with open('subjects.json') as subjects:
     subject_dict = json.load(subjects)
 
-#57 quarters
-#330 subjects
-
 for term in term_dict:
     params['term'] = term['id']
     for subject in subject_dict:
