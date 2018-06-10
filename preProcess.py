@@ -52,7 +52,7 @@ def deleteNoPrevYears():
 						#the course does take place the previous year--don't delete 
 				y = y + 1
 			if takesPlace == False:
-				currentRow.append("First")
+				currentRow.append("Different")
 				#del lines[x] ##course doesn't take place the prev year --> delete
 				#x = x - 1 ##decrement x b/c just deleted a row
 
